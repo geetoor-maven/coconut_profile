@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angkatan1"
+    android:background="@drawable/lambang">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/coconut"
+            android:layout_marginHorizontal="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="KETUA      : Asrul Azis "
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--LULUSAN : STMIK Profesional Makassar diploma III [Teknik Komputer] dan Bergabung di coconut tahun 2011"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginLeft="16sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="- Haerun -- Zaldi -- Alm.Eten -\n- Ince -- Adonia -- Roy -- Desman -\n- Ahmad Budiman -- Army Singart A -\n- Eruin -- Derek -- Laluna - "
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

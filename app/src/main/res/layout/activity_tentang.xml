@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/lambang">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/coconut"
+            android:layout_marginHorizontal="20sp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:text="--TENTANG--"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F7ECE9E7"
+            android:textSize="20sp"
+            android:text="COCONUT adalah kelompok \nbelajar yang terbentuk\n di STMIK Profesional Makassar sebagai sarana\n untuk mengembangkan kreativitas anggotanya di bidang tegnology informasi sejak 1 april 2008 sampai dengan sekarang."
+            android:textAlignment="center"
+            android:layout_marginTop="20sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

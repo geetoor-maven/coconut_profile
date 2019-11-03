@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".angkatan5"
+    android:background="@drawable/lambang">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/coconut"
+        android:layout_marginHorizontal="20sp"
+        /> <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="KETUA      : Muhammad Asri Ali "
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--LULUSAN : STMIK Profesional Makassar diploma III [Manajemen Informatika] dan Bergabung di coconut tahun 2012"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginLeft="16sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="- Kevin Saputra Iskandar -- Rahayu -\n- Kartika Mayasari -- Muh.Yusuf Arif-\n- Rusman -- Maulana Ishaq -\n- Amanda -- Eka Rahmawati -\n- Yulianus Sabo Bungin -\n- Ahmad Asharie Jaya -\n- Sulaiman Patabang -- Samson Patabang -"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

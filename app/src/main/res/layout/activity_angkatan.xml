@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angkatan"
+    android:background="@drawable/lambang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/coconut"
+            android:layout_marginHorizontal="20sp"
+            />
+
+        <LinearLayout
+        android:layout_width="400sp"
+        android:layout_height="100sp"
+        android:orientation="horizontal"
+            android:layout_gravity="center">
+        <Button
+            android:id="@+id/angkatan1"
+            android:background="#8000"
+            android:textColor="#9B930A"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="ANG.01"
+            android:layout_marginLeft="60sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/angkatan2"
+            android:background="#8000"
+            android:textColor="#F80707"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="ANG.02"
+            android:layout_marginTop="20sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_marginLeft="10sp"
+            android:id="@+id/angkatan3"
+            android:background="#8000"
+            android:textColor="#0423F0"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:text="ANG.03"
+            android:layout_marginTop="20sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="400sp"
+            android:layout_height="100sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/angkatan4"
+                android:background="#8000"
+                android:textColor="#08F10D"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.04"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_marginLeft="10sp"
+                android:id="@+id/angkatan5"
+                android:background="#8000"
+                android:textColor="#D90CF0"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.05"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_marginLeft="10sp"
+                android:id="@+id/angkatan6"
+                android:background="#8000"
+                android:textColor="#EDEEF1"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.06"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400sp"
+            android:layout_height="100sp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/angkatan7"
+                android:background="#8000"
+                android:textColor="#36BB78"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.07"
+                android:layout_marginLeft="60sp"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_marginLeft="10sp"
+                android:id="@+id/angkatan8"
+                android:background="#8000"
+                android:textColor="#7F8EF7"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.08"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_marginLeft="10sp"
+                android:id="@+id/angkatan9"
+                android:background="#8000"
+                android:textColor="#EE520A"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.09"
+                android:layout_marginTop="20sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="400sp"
+            android:layout_height="100sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/angkatan10"
+                android:background="#8000"
+                android:textColor="#09F88A"
+                android:layout_width="90sp"
+                android:layout_height="wrap_content"
+                android:text="ANG.010"
+                android:layout_marginTop="20sp"
+                android:layout_marginLeft="160sp"
+                android:fontFamily="serif-monospace"
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

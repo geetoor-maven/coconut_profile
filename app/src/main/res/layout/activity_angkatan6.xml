@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angkatan6"
+    android:background="@drawable/lambang">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120sp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/coconut"
+        android:layout_marginHorizontal="20sp"/>
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_gravity="center"
+            android:layout_height="100sp"
+            android:src="@drawable/ang6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="KETUA      : Elfira Febrianti "
+            android:textSize="20sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="--LULUSAN : STMIK Profesional Makassar Starata I [Sistem Informasi] dan Bergabung di coconut tahun 2013"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:layout_marginLeft="16sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="- Seno Apriliyadi -- Hasrullah MS -\n- Asrul -- Apriandy Mawir -\n- Nurwana Lukman -- Trian R.Diponogoro -\n- Andy Abd.Azis -- Suparman -\n- Abdul Rasyid Ramadhan -\n- Mannawati Syam -- Andi TendroAji -\n- Yos Arasandi Mangentang -\n- Andre Tapelu -"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

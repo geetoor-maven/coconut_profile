@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hello">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="CCNT"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Angkatan10"></activity>
+        <activity android:name=".Angkatan9" />
+        <activity android:name=".Angkatan8" />
+        <activity android:name=".angkatan7" />
+        <activity android:name=".Angkatan6" />
+        <activity android:name=".angkatan5" />
+        <activity android:name=".Angkatan4" />
+        <activity android:name=".Angkatan3" />
+        <activity android:name=".Angkatan2" />
+        <activity android:name=".Angkatan1" />
+        <activity android:name=".Angkatan" />
+        <activity android:name=".pendiri" />
+        <activity android:name=".Visimisi" />
+        <activity android:name=".Tentang" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

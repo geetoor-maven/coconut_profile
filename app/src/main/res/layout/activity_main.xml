@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang"
+    android:background="@drawable/lambang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="69dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/coconut"
+            android:layout_marginHorizontal="20sp"
+            />
+
+
+
+        <Button
+            android:id="@+id/tentang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="65sp"
+            android:background="#80000000"
+            android:text="--tentang--"
+            android:textSize="20sp"
+            android:textColor="#F6F7FA"
+            android:layout_marginVertical="20sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/visimisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="#80000000"
+            android:text="--VISI dan MISI--"
+            android:textSize="20sp"
+            android:textColor="#F4F5F7"
+            android:layout_marginVertical="2sp"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/pendiri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="#80000000"
+            android:text="--PENDIRI--"
+            android:textSize="20sp"
+            android:textColor="#F9F9FA"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/angkatan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:background="#80000000"
+            android:text="--ANGKATAN--"
+            android:textSize="20sp"
+            android:textColor="#F3F5F8"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="300sp"
+            android:layout_height="80sp"
+            android:layout_marginTop="20sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:src="@drawable/fb"
+                android:layout_marginLeft="55sp"
+                android:layout_marginTop="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="coconutcomputerclub"
+                android:textColor="#fff"
+                android:layout_marginLeft="17sp"
+                android:layout_marginTop="28sp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="300sp"
+    android:layout_height="80sp"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    <ImageView
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:src="@drawable/ig"
+        android:layout_marginLeft="55dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="coconut_dotorg"
+        android:textColor="#fff"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="12sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"/>
+</LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

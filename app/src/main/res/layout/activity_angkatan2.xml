@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Angkatan2"
+    android:background="@drawable/lambang">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/coconut"
+            android:layout_marginHorizontal="20sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150sp"
+                android:src="@drawable/ang2"/>
+
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="KETUA      : Hamsal Hamid "
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="--LULUSAN : STMIK Profesional Makassar diploma III [Manajemen Informatika] dan Bergabung di coconut tahun 2009"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_marginLeft="16sp"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"/>
+        <TextView
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:text="- Yusrianto Tunus -- Nur Asiah -\n- Yaomal -- Mujaddid -- Hardianti -\n- Musdayanti -- Andar Gunawan -\n- Syaifullah -- Roby -- Riswadi -\n- Arta kusuma -- Indah Putri Djawahir -\n- Faisal Palakka -\n- Jaelani Abdillah -- Istifarni Y -\n- Imam NUgraha -\n- Ahmad Sofandi -- Takbir -\n- M Ridwan Agung -\n- Afsalurrahman -- Wawan Sudirman -\n- Doni Darmawan -- Erfin Ibrahim -\n- M Ahkam Ali -\n- Bulandari -- M.Amir Abdullah -\n- Ihtiar Muhtasim -"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
